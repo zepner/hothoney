@@ -36,8 +36,8 @@
       <div id="hero" class="block">
         <div id="social" style=" width: 10%;">
           <a id="instagram" href="https://www.instagram.com/hothoneystudio">IG</a>
-          <a id="facebook">FB</a>
-          <a id="linkedin">LI</a>
+          <a class="strike" id="facebook">FB</a>
+          <a class="strike" id="linkedin">LI</a>
         </div>
         <div id="main-image">
           <img src="assets/hero-main-img.png" width="600" style="max-width: 90%;" />
