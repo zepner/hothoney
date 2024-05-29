@@ -1,0 +1,350 @@
+body {
+        background-color: #4f2024;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: url(assets/home-9-background-2a.jpg);
+        font-family: Lato, sans-serif;
+        font-size: 18px;
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+      }
+      #header {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        background: transparent;
+        padding: 1rem;
+        top: 0;
+        left: 1%;
+        align-items: center;
+      }
+      #header #hb-menu {
+        width: 50px;
+        height: 10px;
+        overflow: hidden;
+        border: 1px solid #fff;
+        border-width: 1px 0;
+      }
+      #header #hb-menu a {
+        visibility: hidden;
+      }
+
+      main {
+        width: 100%;
+      }
+      main .block {
+        float: none;
+        display: block;
+        justify-content: start;
+        box-sizing: content-box;
+      }
+      main .block.flex {
+        display: flex;
+      }
+      #hero {
+        padding: 10rem 3rem 2rem;
+        background-image: url(assets/home-9-image-1a.jpg); background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        display: flex;
+      }
+      @media (max-width: 900px) {
+        #hero {
+          display: inline-flex;
+          padding: 10rem 3rem 2rem;
+          align-items: start;
+        }
+      }
+      #hero #main-image {
+        margin: 0 2rem;
+        min-width: 30%;
+      }
+      @media (max-width: 900px) {
+        #hero #main-image {
+          margin: 0 1rem;
+          min-width: 30%;
+        }
+      }
+      #hero #social {
+        line-height: 2;
+        padding-left: 2rem;
+        max-width: 100%;
+      }
+      @media (max-width: 900px) {
+        #hero #social {
+          padding-left: 0;
+          padding-right: 2rem;
+        }
+      }
+      #hero #social a {
+        display: block;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 3.2px;
+        width: 100px;
+      }
+      @media (max-width: 900px) {
+        #hero #social a {
+          width: auto;
+        }
+      }
+      #hero .copy {
+        /* width: 42%; */
+        padding-right: 2rem;
+      }
+      @media (max-width: 900px) {
+        #hero .copy {
+          width: auto;
+          padding-right: 2rem;
+        }
+      }
+      #hero .copy h1 {
+        font-family: Cormorant, serif;
+        font-size: 5rem;
+        font-weight: 300;
+        line-height: 1;
+        margin-top: 0;
+        margin-bottom: 4rem;
+      }
+      @media (max-width: 900px) {
+        #hero .copy h1 {
+          font-size: 3rem;
+          margin-bottom: 2rem;
+        }
+      }
+      #hero .copy h2 {
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1.2;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      #hero .copy p {
+        font-size: 1.4rem;
+        line-height: 1.6;
+      }
+      @media (max-width: 900px) {
+        #hero .copy p {
+          font-size: 1rem;
+        }
+      }
+      #hero .copy button {
+        border: 2px solid #fff;
+        margin-top: 2rem;
+
+        background: transparent;
+        padding: 11px 55px;
+        letter-spacing: 2.4px;
+        color: #fff;
+        /* border: 1px solid #fff; */
+        text-transform: uppercase;
+        font-size: 65%;
+        font-weight: 700;
+        font-family: Lato, sans-serif;
+      }
+      #hero .copy button a {
+        color: inherit;
+        text-decoration: none;
+      }
+      #logo {
+        position: relative;
+        font-size: 12px;
+        border: 1px solid rgb(255 255 255 / 50%);
+        width: 108px;
+      }
+      #logo #lh1, #logo #lh2, #logo .invisible {
+        font-family: Cormorant, Georgia, 'Times New Roman', Times, serif;
+        font-size: 6rem;
+        font-weight: 300;
+      }
+      #logo .invisible {
+        font-size: 6.1rem;
+        line-height: 1;
+      }
+      #logo #lh1, #logo #lh2 {
+        line-height: 0;
+      }
+      #logo #lh1 {
+        opacity: .75;
+      }
+      #logo #hhoney {
+        position: absolute;
+        top: 95px;
+        left: 22px;
+        line-height: 0;
+        font-size: 0.5rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        /* color: gold; */
+      }
+      .invisible {
+        visibility: hidden;
+      }
+      .italic {
+        font-style: italic;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      .uppercase{
+        text-transform: uppercase;
+      }
+      .block.bginfo {
+        text-align: center;
+        padding: 0 20%;
+      }
+      .block.bginfo h3 {
+        font-family: Cormorant, serif;
+        font-size: 5rem;
+        font-weight: 300;
+        line-height: 1;
+        margin-bottom: 2rem;
+      }
+      @media (max-width: 900px) {
+        .block.bginfo h3 { font-size: 3rem; }
+      }
+      .block.bginfo h4 {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 3.2px;
+      }
+      .block.bginfo p {
+        margin-top: 3rem;
+        line-height: 1.5em;
+        font-weight: 400;
+      }
+      .block#gallery {
+        display: flex;
+        padding: 4rem 1rem;
+      }
+      @media (max-width: 900px) {
+        .block#gallery {
+          display: block;
+        }
+      }
+      #gallery .grid {
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+      }
+      @media (max-width: 900px) {
+        max-width: 80%;
+      }
+      #gallery .grid .cell {
+        margin: 1.2rem;
+      /*   background: lightyellow; */
+        flex: 0 1 20%;
+        text-align: center;
+      }
+      #gallery .grid .cell img {
+        max-width: 100%;
+      }
+
+      #products {
+        display: flex;
+        max-width: 80%;
+        margin: auto;
+        padding: 2rem 0 4rem 0;
+      }
+      @media (max-width: 900px) {
+        #products {
+          display: block;
+        }
+      }
+      #products .product {
+        text-align: center;
+        width: 30%;
+        padding: 70px 30px 87px;
+        border: 1px solid #907b7c;
+        margin: 0 1rem 1rem;
+      }
+      @media (max-width: 900px) {
+        #products .product {
+          width: auto;
+        }
+      }
+      #products .product h3 {
+        font-family: Cormorant, Georgia, 'Times New Roman', Times, serif;
+        font-size: 3rem;
+        font-weight: 300;
+        font-style: italic;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      #products .product .price {
+        font-family: Cormorant, Georgia, 'Times New Roman', Times, serif;
+        font-size: 4rem;
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 1rem;
+      }
+      #products .product .content ul {
+        list-style: none;
+        line-height: 2;
+        margin: 0;
+        padding: 0;
+      }
+      #products .product button {
+        margin-top: 2rem;
+        background: transparent;
+        padding: 11px 55px;
+        letter-spacing: 2.4px;
+        color: #fff;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        font-size: 65%;
+        font-weight: 700;
+        font-family: Lato, sans-serif;
+      }
+      #products .product button a {
+        color: inherit;
+        text-decoration: none;
+      }
+      #products .product button.filled {
+        background-color: #fff;
+        color: #663130;
+      }
+
+      #socpruf {
+        padding-bottom: 4rem;
+      }
+
+      /* Footer */
+      footer {
+        padding: 2rem 0;
+        max-width: 80%;
+        margin: auto;
+        box-sizing: border-box;
+      }
+      footer #menu {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+      }
+      @media (max-width: 900px) {
+        footer #menu {
+          display: block;
+          text-align: center;
+        }
+        footer #menu > div {
+          margin: auto auto 1rem;
+        }
+      }
+      footer #menu h6 {
+        font-family: Cormorant, serif;
+        font-weight: 300;
+        font-size: 1.6rem;
+        line-height: 1;
+        margin: 0;
+      }
+      footer #menu a {
+        color: inherit;
+        text-decoration: none;
+      }
