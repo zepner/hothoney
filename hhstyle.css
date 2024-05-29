@@ -62,10 +62,15 @@ body {
         margin: 0 2rem;
         min-width: 30%;
       }
+      #hero #hero-copy-image {
+        display: none;
+      }
       @media (max-width: 900px) {
         #hero #main-image {
-          margin: 0 1rem;
-          min-width: 30%;
+          display: none;
+        }
+        #hero #hero-copy-image {
+          display: block;
         }
       }
       #hero #social {

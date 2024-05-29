@@ -43,6 +43,9 @@
           <img src="assets/hero-main-img.png" width="600" style="max-width: 90%;" />
         </div>
         <div class="copy">
+          <div id="hero-copy-image">
+            <img src="assets/hero-main-img.png" width="600" style="max-width: 90%;" />
+          </div>
           <h2>Build your list, fill your book</h2>
           <h1>Established Beauty Pro</h1>
           <p class="italic bold">Without a list, you're at the mercy of the market.</p>
