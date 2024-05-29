@@ -56,7 +56,7 @@
       <div id="biginfo" class="block bginfo">
         <h3><br>Build campaigns your clients will love</h3>
         <h4 class="uppercase">A FULL RANGE OF SERVICES</h4>
-        <p class="italic" style="font-size: larger">Get serious about email list development with features that include <strong>automated messaging</strong>, <strong>subscriber segmentation</strong>, <strong>evergreen campaigns</strong>, <strong>landing pages</strong>, <strong>scheduling</strong>, and more. <br>As you grow, your system with grow with you - and it's portable! So you can take your clients with you, wherever you go!</p>
+        <p class="italic" style="font-size: larger">Get serious about email list development with features that include <strong>automated messaging</strong>, <strong>subscriber segmentation</strong>, <strong>evergreen campaigns</strong>, <strong>landing pages</strong>, <strong>scheduling</strong>, and more. <br>As you grow, your system will grow with you - and it's portable! So you can take your clients with you, wherever you go!</p>
       </div>
       <div id="gallery" class="block">
         <div class="left grid">
