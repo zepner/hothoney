@@ -35,7 +35,7 @@
     <main>
       <div id="hero" class="block">
         <div id="social" style=" width: 10%;">
-          <a id="instagram">IG</a>
+          <a id="instagram" href="https://www.instagram.com/hothoneystudio">IG</a>
           <a id="facebook">FB</a>
           <a id="linkedin">LI</a>
         </div>
@@ -94,7 +94,7 @@
               <li>1 Social Media Ad (Image + Copy)</li>
             </ul>
           </div>
-          <button><a href="#contact">Purchase</a></button>
+          <button class="filled"><a href="#contact">Purchase</a></button>
         </div>
         <div id="deluxe" class="product">
           <h3>Deluxe</h3>
