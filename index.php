@@ -122,7 +122,7 @@
         .block#contact {
           /* background-color: #83151a; */
           text-align: center;
-          padding: 4rem;
+          padding: 4rem 1rem;
         }
       </style>
       <div id="contact" class="block">

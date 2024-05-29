@@ -54,7 +54,7 @@ body {
       @media (max-width: 900px) {
         #hero {
           display: inline-flex;
-          padding: 10rem 3rem 2rem;
+          padding: 10rem 1rem 2rem;
           align-items: start;
         }
       }
@@ -103,7 +103,7 @@ body {
       @media (max-width: 900px) {
         #hero .copy {
           width: auto;
-          padding-right: 2rem;
+          padding-right: 0;
         }
       }
       #hero .copy h1 {
@@ -210,6 +210,9 @@ body {
         margin-bottom: 2rem;
       }
       @media (max-width: 900px) {
+        .block.bginfo {
+          padding: 0 5%;
+        }
         .block.bginfo h3 { font-size: 3rem; }
       }
       .block.bginfo h4 {
@@ -252,13 +255,14 @@ body {
 
       #products {
         display: flex;
-        max-width: 80%;
+        max-width: 90%;
         margin: auto;
         padding: 2rem 0 4rem 0;
       }
       @media (max-width: 900px) {
         #products {
           display: block;
+          max-width: none;
         }
       }
       #products .product {
