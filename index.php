@@ -1,23 +1,21 @@
 <html>
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VBQJPT23KV"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-VBQJPT23KV'); </script>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" id="google-fonts-css"
       href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,600,600i,700|Lato:300,300i,400,400i,500,600,600i,700&subset=latin-ext&display=swap&ver=1.0.0"
       type="text/css" media="all">
     <link rel="stylesheet" href="hhstyle.css">
-    <!-- MailerLite Universal -->
     <script>
       (function (w, d, e, u, f, l, n) {
         w[f] = w[f] || function () {
-          (w[f].q = w[f].q || [])
-          .push(arguments);
+          (w[f].q = w[f].q || []).push(arguments);
         }, l = d.createElement(e), l.async = 1, l.src = u,
         n = d.getElementsByTagName(e)[0], n.parentNode.insertBefore(l, n);
       })
         (window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
       ml('account', '933037');
     </script>
-    <!-- End MailerLite Universal -->
   </head>
   <body>
     <div id="header">
